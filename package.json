@@ -4,12 +4,17 @@
     "description": "A port of the Sublime Text Plugin \"Theme - Primer\".",
     "version": "0.0.1",
     "publisher": "cyberchefjay",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.11.0"
     },
     "categories": [
         "Themes"
     ],
+    "repository": {
+        "type": "git",
+        "url": "http://www.github.com/thecodechef/primer-theme.git"
+    },
     "contributes": {
         "themes": [{
                 "label": "Primer (dark)",
@@ -22,5 +27,8 @@
                 "path": "./themes/Primer (light).tmTheme"
             }
         ]
+    },
+    "dependencies": {
+        "vsce": "^1.20.0"
     }
 }
