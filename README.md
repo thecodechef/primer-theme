@@ -4,6 +4,8 @@
 
 # README
 
+> A port of the Sublime Text Plugin "Theme - Primer"
+
 ## Installation
 
 ### With Visual Studio Code
