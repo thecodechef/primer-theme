@@ -1,0 +1,26 @@
+{
+    "name": "primer-theme",
+    "displayName": "Primer Theme",
+    "description": "A port of the Sublime Text Plugin \"Theme - Primer\".",
+    "version": "0.0.1",
+    "publisher": "cyberchefjay",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [{
+                "label": "Primer (dark)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Primer (dark).tmTheme"
+            },
+            {
+                "label": "Primer (light)",
+                "uiTheme": "vs",
+                "path": "./themes/Primer (light).tmTheme"
+            }
+        ]
+    }
+}
