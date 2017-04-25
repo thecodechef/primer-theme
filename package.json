@@ -1,8 +1,9 @@
 {
     "name": "primer-theme",
     "displayName": "Primer Theme",
+    "icon": "./images/logo.png",
     "description": "A port of the Sublime Text Plugin \"Theme - Primer\".",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "cyberchefjay",
     "license": "MIT",
     "engines": {
