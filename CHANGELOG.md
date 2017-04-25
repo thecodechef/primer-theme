@@ -3,6 +3,7 @@
 
 
 ## [0.0.4]
+- Misc. Fixes
 - Added Primer (light2)
 - Fixed Issue in Changelog
 ## [0.0.3]
