@@ -2,7 +2,7 @@
     "name": "primer-theme",
     "displayName": "Primer Theme",
     "description": "A port of the Sublime Text Plugin \"Theme - Primer\".",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "cyberchefjay",
     "license": "MIT",
     "engines": {
@@ -30,5 +30,12 @@
     },
     "dependencies": {
         "vsce": "^1.20.0"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-data": "^1.2.1",
+        "gulp-flatmap": "^1.0.0",
+        "gulp-pug": "^3.3.0",
+        "gulp-rename": "^1.2.2"
     }
 }

@@ -1,4 +1,9 @@
 # Change Log
 
+
+## [0.0.3
+- Rebuilt to use gulp as build system
+- Added Screenshots to README.md
+]
 ## [0.0.1]
 - Initial release

@@ -1,0 +1,45 @@
+include ./_mixins/all.pug
+
++plist()
+  +dict()
+    +key('name', theme.name)
+    +key('author', author)
+    +key('comment', comment)
+    +key('colorSpaceName',csn)
+    +key('semanticClass',theme.semantic_class)
+    +key('uuid',theme.uuid)
+    +dict('gutterSettings')
+      +bg(theme.gutterSettings.background)
+      +key('divider',theme.gutterSettings.divider)
+      +fg(theme.gutterSettings.foreground)
+      +key('selectionBackground',theme.gutterSettings.selectionBackground)
+      +key('selectionForeground',theme.gutterSettings.selectionForegrounf)
+    +array('settings')
+      +dict()
+        +dict('settings')
+          // Gutter background
+          +bg(theme.settings.background)
+          +key('caret',theme.settings.caret)
+          // Gutter text color
+          +fg(theme.settings.foreground)
+          +key('invisibles',theme.settings.invisibles)
+          // Gutter line highlight
+          +key('lineHighlight',theme.settings.highlight)
+          +key('findHighlight',theme.settings.findHighlight)
+          +key('selection',theme.settings.selection)
+          +key('selectionBorder',theme.settings.selectionBorder)
+          // Gutter Guides
+          +key('guide',theme.settings.guide)
+          +key('activeGuide',theme.settings.activeGuide)
+          +key('stackGuides',theme.settings.stackGuides)
+      for component in theme.components
+        +dict()
+          +key('name', component.name)
+          +key('scope', component.scope)
+          +dict('settings')
+            if component.background
+              +bg(component.background)
+            if component.foreground
+              +fg(component.foreground)
+            if component.font_style
+              +key('fontStyle',component.font_style)

@@ -1,0 +1,7 @@
+mixin plist(version)
+  doctype xml
+  = '\n'
+  doctype plist
+  plist(version=version)
+    if block
+      block
