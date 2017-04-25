@@ -1,7 +1,8 @@
 # Change Log
 
 
-
+## [0.0.5]
+- Fixed Images in README for VSMarketplace
 ## [0.0.4]
 - Misc. Fixes
 - Added Primer (light2)

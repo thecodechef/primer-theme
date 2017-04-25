@@ -43,5 +43,5 @@ With the Extensions Bar Open
 [vs_marketplace-rating-image]: https://vsmarketplacebadge.apphb.com/rating-short/cyberchefjay.primer-theme.svg
 [vs_marketplace-ext-url]: https://marketplace.visualstudio.com/items?itemName=cyberchefjay.primer-theme
 
-[primer-theme-light-img]: ./images/primer-theme-light.screenshot_01.png
-[primer-theme-dark-img]: ./images/primer-theme-dark.screenshot_01.png
+[primer-theme-light-img]: https://raw.githubusercontent.com/thecodechef/primer-theme/master/images/primer-theme-light.screenshot_01.png
+[primer-theme-dark-img]: https://raw.githubusercontent.com/thecodechef/primer-theme/master/images/primer-theme-dark.screenshot_01.png
