@@ -26,9 +26,22 @@ With the Extensions Bar Open
 + Then click `Install`
 + When it is finished installing reload the window by pressing `Reload`
 
+## Light Variant
+
+[![Primer Theme Light][primer-theme-light-img]]([vs_marketplace-ext-url])
+## Dark Variant
+
+[![Primer Theme Dark][primer-theme-dark-img]]([vs_marketplace-ext-url])
+
+
+---
+
 **Enjoy!**
 
 [vs_marketplace-release-image]: https://vsmarketplacebadge.apphb.com/version-short/cyberchefjay.primer-theme.svg
 [vs_marketplace-installs-image]: https://vsmarketplacebadge.apphb.com/installs-short/cyberchefjay.primer-theme.svg
 [vs_marketplace-rating-image]: https://vsmarketplacebadge.apphb.com/rating-short/cyberchefjay.primer-theme.svg
 [vs_marketplace-ext-url]: https://marketplace.visualstudio.com/items?itemName=cyberchefjay.primer-theme
+
+[primer-theme-light-img]: ./images/primer-theme-light.screenshot_01.png
+[primer-theme-dark-img]: ./images/primer-theme-dark.screenshot_01.png
