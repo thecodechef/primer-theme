@@ -25,6 +25,11 @@
                 "label": "Primer (light)",
                 "uiTheme": "vs",
                 "path": "./themes/Primer (light).tmTheme"
+            },
+            {
+                "label": "Primer (light2)",
+                "uiTheme": "vs",
+                "path": "./themes/Primer (light2).tmTheme"
             }
         ]
     },
