@@ -1,5 +1,6 @@
-.vscode/
+.vscode
 node_modules/
 
 .gitignore
 .DS_Store
+*.lock
