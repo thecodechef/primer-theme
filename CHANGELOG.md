@@ -1,9 +1,11 @@
 # Change Log
 
 
-## [0.0.3
+
+## [0.0.4]
+- Fixed Issue in Changelog
+## [0.0.3]
 - Rebuilt to use gulp as build system
 - Added Screenshots to README.md
-]
 ## [0.0.1]
 - Initial release
