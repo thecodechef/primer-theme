@@ -4,6 +4,8 @@
 
 # README
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/thecodechef/primer-theme.svg)](https://greenkeeper.io/)
+
 > A port of the Sublime Text Plugin "Theme - Primer"
 
 ## Installation
